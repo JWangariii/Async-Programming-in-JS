@@ -18,5 +18,5 @@ xhr2.onload = () => {
         return 0;
     })
     showOrderList("#order-list", fullOrders);};
-    xhr2.send;
+    xhr2.send();
 };
